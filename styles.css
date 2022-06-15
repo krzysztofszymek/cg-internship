@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto' sans-serif;;
+    margin: 0;
+}
+
+.content {
+    height: 100vh;
+    width: auto;
+}
+
+ul {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+li {
+    padding: 1%;
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.green {
+    border: 1px solid green;
+}
+
+.focused {
+    background-color: gray;
+}
